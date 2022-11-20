@@ -35,8 +35,8 @@ Note:
     <li>To download files, use git clone command </li>
     <li>Create a directory named backup in /opt dir </li>
     <li>After downloading, move <strong>backup</strong> file to /opt/backup/ dir </li>
-    <li>move <strong>backup.conf</strong> file to /etc/systemd/ dir </li>
-    <li>move <strong>backup.timer and backup.service</strong> files to /etc/systemd/system/ dir </li>
+    <li>Move <strong>backup.conf</strong> file to /etc/systemd/ dir </li>
+    <li>Move <strong>backup.timer and backup.service</strong> files to /etc/systemd/system/ dir </li>
     <li>To reload systemd files, run command sudo systemctl daemon-reload </li>
     <li>To start the service and timer files, run command
         <ul> 
