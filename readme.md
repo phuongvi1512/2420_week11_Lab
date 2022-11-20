@@ -64,3 +64,7 @@ Note:
 > The outcome should have backup.timer file in the list
 >
 > ![timer list](/image/timer-units.png)
+
+## Author
+- Phuong Vi Dang A01292902
+- Parnian Azarm A01245271
