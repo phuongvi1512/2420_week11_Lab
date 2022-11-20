@@ -52,12 +52,12 @@ Note:
             <li>systemctl status backup.timer</li>
         </ul>
         > The outcome should look like picture below
-        > [![backup.service status](/image/service-status.png)]
-        > [![backup.timer status](/image/timer-status.png)]
+        > ![backup.service status](/image/service-status.png)
+        > ![backup.timer status](/image/timer-status.png)
         ...
         > Or you can run command systemctl list-timers to check if the timer file is run
         > The outcome should look like
-        > [![timer list](/image/timer-units.png)]
+        > ![timer list](/image/timer-units.png)
         ...
     </li>
 
