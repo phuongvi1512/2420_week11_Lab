@@ -1,5 +1,10 @@
 # Readme file for how to use backup
 
+## Author
+
+- Phuong Vi Dang A01292902
+- Parnian Azarm A01245271
+
 ## Usage
 
 Using timer and service file to automatically back up user home directory, user /etc/ dir and /opt dir into a remote server
@@ -35,7 +40,7 @@ Note:
 
 <ol>
     <li>To download files, use git clone command </li>
-    <li>Create a directory named backup in /opt dir </li>
+    <li>Create a directory named backup in /opt dir</li>
     <li>After downloading, move <strong>backup</strong> file to /opt/backup/ dir </li>
     <li>Move <strong>backup.conf</strong> file to /etc/systemd/ dir </li>
     <li>Move <strong>backup.timer and backup.service</strong> files to /etc/systemd/system/ dir </li>
@@ -65,6 +70,4 @@ Note:
 >
 > ![timer list](/image/timer-units.png)
 
-## Author
-- Phuong Vi Dang A01292902
-- Parnian Azarm A01245271
+
