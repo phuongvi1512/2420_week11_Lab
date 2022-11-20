@@ -26,6 +26,8 @@ Before starting, in backup.conf, please change
 - USER variable to server username
 - IPADDRESS to remote server's IP address
 
+[![Backup configuration file](/image/conf-file.png)]
+
 Note:
 > If you like to back up other directories, you can edit SOURCES variable in backup.conf
 
@@ -43,6 +45,20 @@ Note:
             <li> sudo systemctl start backup.service </li> 
             <li>sudo systemctl start backup.timer </li>
         </ul>
+    </li>
+    <li>To check if service and timer files are properly set up, run command
+        <ul>
+            <li>systemctl status backup.service</li>
+            <li>systemctl status backup.timer</li>
+        </ul>
+        > The outcome should look like picture below
+        > [![backup.service status](/image/service-status.png)]
+        > [![backup.timer status](/image/timer-status.png)]
+        ...
+        > Or you can run command systemctl list-timers to check if the timer file is run
+        > The outcome should look like
+        > [![timer list](/image/timer-units.png)]
+        ...
     </li>
 
 </ol>
