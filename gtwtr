@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#using curl to display weather data
+
+curl -s wttr.in/Vancouver -o /etc/motd
