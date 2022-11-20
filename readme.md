@@ -70,4 +70,11 @@ Note:
 >
 > ![timer list](/image/timer-units.png)
 
+## Troubleshoot
+
+- If systemd files return "bad unit setting" errors, check service file and timer file
+- If the service file fails to load, check backup and backup.conf file
+- If backup file returns "permission denied" error, check the IP address of remote server or the public key is added to authorized_keys file
+
+
 
