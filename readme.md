@@ -61,5 +61,6 @@ Note:
 
 > Or you can run command systemctl list-timers to check if the timer file is run
 >
-> The outcome should look like
+> The outcome should have backup.timer file in the list
+>
 > ![timer list](/image/timer-units.png)
