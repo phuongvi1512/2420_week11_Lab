@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#using rsync to back up dir in server one in backup-server
+
+#using source for config file
+source /etc/systemd/backup.conf
+
+#since its now in root, use cd to go to user home directory
+
+#cd /home/Vi
+#rsync command
+
+rsync -avP ${SOURCES} ${USER}@${IPADDRESS}:~/backupServer1

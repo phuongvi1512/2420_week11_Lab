@@ -1,0 +1,10 @@
+[Unit]
+Description="backup the server-one every friday at 1.00"
+
+[Timer]
+OnCalendar=Fri 01:00
+Persistent=true #still run the script if exact running time is missed
+RandomizedDelaySec=60m
+
+[Install]
+WantedBy=timers.target

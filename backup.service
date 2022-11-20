@@ -1,0 +1,9 @@
+[Unit]
+Description=backup server one using rsync
+
+[Service]
+Type=oneshot
+ExecStart=/opt/backup/backup
+
+[Install]
+WantedBy=multi-user.target
