@@ -31,7 +31,7 @@ Before starting, in backup.conf, please change
 - USER variable to server username
 - IPADDRESS to remote server's IP address
 
-[![Backup configuration file](/image/conf-file.png)]
+[![Backup configuration file](/images/conf-file.png)]
 
 Note:
 > If you like to back up other directories, you can edit SOURCES variable in backup.conf
@@ -61,14 +61,14 @@ Note:
 
 > The outcome should look like picture below
 >
-> ![backup.service status](/image/service-status.png)
-> ![backup.timer status](/image/timer-status.png)
+> ![backup.service status](/images/service-status.png)
+> ![backup.timer status](/images/timer-status.png)
 
 > Or you can run command systemctl list-timers to check if the timer file is run
 >
 > The outcome should have backup.timer file in the list
 >
-> ![timer list](/image/timer-units.png)
+> ![timer list](/images/timer-units.png)
 
 ## Troubleshoot
 
